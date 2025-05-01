@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --vermelho-forte: #D50000;
+    --branco: #ffffff;
+    --fundo-sessoes: #FAFAFA;
+    --cor-texto: #000000;
+    --fonte-cal-sans: Univia Pro, montserrat, sans-serif;
+}
+
+
+*{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    gap: 50vw;
+    width: 100vw;
+    height: 20vh;
+
+}
+
+.conteudo-cabecalho-lado-esquerdo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 50vw;
+}
+
+.conteudo-cabecalho-lado-direito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 50vw;
+}
+
+.img-logo{
+    width: 200px;
+}
+
+.menu-opcoes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    a{
+        font-family: var(--fonte-cal-sans);
+        text-decoration: none;
+        color: var(--cor-texto);
+    }
+}
+
+.opcoes-menu{
+    font-family: var(--fonte-cal-sans);
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.sessao-conteudo-apresentacao{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+    
+}
+
+.conteudo-apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 68vw;
+    background-image: url(./Imagem-ilustracao-tela-home.jpeg);
+    background-color: rgba(26, 24, 24, 0.8); /* Faz a cor misturar com a imagem */
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titulo-conteudo-apresentacao{
+    font-family: var(--fonte-cal-sans);
+    color: var(--branco);
+    font-size: 28px;
+    font-weight: 600;
+}

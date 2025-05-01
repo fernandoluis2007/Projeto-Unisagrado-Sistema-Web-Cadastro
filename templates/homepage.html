@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link rel="shortcut icon" href="{{url_for('static', filename='icon_unisagrado.jpg')}}" type="image/gif">
+    <title>Home Page</title>
+</head>
+<body>
+   <!--Cabeçalho do site-->
+    <header class="cabecalho">
+        <div class="conteudo-cabecalho-lado-esquerdo">
+            <img src="{{url_for('static', filename='logo_unisagrado_alternativa.png')}}" alt="Logo Instituição Unisagrado" class="img-logo">
+        </div>
+        <div class="conteudo-cabecalho-lado-direito">
+            <ul class="menu-opcoes">
+                <li class="opcoes-menu"><a href="#">Home</a></li>
+                <li class="opcoes-menu"><a href="#">Sobre</a></li>
+                <li class="opcoes-menu"><a href="#">Acessar</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Fim do Cabeçalho do site-->
+
+    <main>
+        <section class="sessao-conteudo-apresentacao">
+            <div class="conteudo-apresentacao">
+               <h1 class="titulo-conteudo-apresentacao">Sistema de Cadastro</h1>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
